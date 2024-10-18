@@ -1,15 +1,11 @@
-# Deep-Learning-project-for-healthcare
-Created a predictive model to estimate if a patient is eligible for the first 
-prescription of the “Target Drug” in the next 30 days.
+# Prescription Eligibility Predictor
+Developed a predictive model to estimate whether a patient is eligible for their first prescription of the "Target Drug" within the next 30 days.
 
-Some of the patients present in the test file are eligible for the drug prescription 
-within a month and some of them are not, using each patient’s historical data 
-predict if he/she is eligible for the “Target Drug”.
+The test file includes patients who may or may not be eligible for the prescription based on their historical data. The model predicts eligibility for each patient.
 
-For this project ,created a binary model to like labels = 1 and 0,1 represents for 
-patients are eligible for the prescription ,0 represents not eligible.
+For this project, I developed a binary classification model, where a label of 1 indicates eligibility for the prescription and a label of 0 indicates ineligibility.
 
+Technologies Used:
 
-### Technologies used : Deep Learning-Transfer learning technique(Inception V3)
-
-### Languages and Libraries Used : Python ,Pandas, Numpy ,Matplotlib ,Seaborn ,Scikit-Learn ,Tensorflow , Keras
+Deep Learning: Transfer Learning (Inception V3)
+Languages and Libraries: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, TensorFlow, Keras
